@@ -11,4 +11,4 @@ def solution(denum1, num1, denum2, num2):
     if n == 1:
         return [top, bottom]
     else:
-        return [top/n, bottom/n]  #복습
+        return [top/n, bottom/n]  #복습  
