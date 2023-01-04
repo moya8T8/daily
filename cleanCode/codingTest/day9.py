@@ -1,3 +1,5 @@
+
+#약수
 def solution(n):
     answer = 0
     divisorsList = []
