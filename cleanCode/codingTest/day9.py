@@ -11,5 +11,3 @@ def solution(n):
     for i in divisorsList:
         answer += i
     return answer
-
-ㅇㄹ
