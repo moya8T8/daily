@@ -18,4 +18,11 @@ def solution2(num_list):
         else :
             b +=1
     answer = [a,b]
+    return answer 
+
+
+def solution3(my_string, n):
+    answer = ''
+    for i in my_string:
+        answer += i * n
     return answer
