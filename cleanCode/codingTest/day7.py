@@ -12,3 +12,13 @@ def solution(array):
 
 
 #정말..풀다가 미쳐버리는줄..
+
+def solution33(my_string, letter):
+    answer = ''
+    for index, item in enumerate(my_string):
+        if(item == letter):
+            answer = my_string[:index]
+    print(answer)
+    return answer
+
+solution33('BCBdbe', 'B')
