@@ -34,3 +34,14 @@ def solution(n, k):
     else:
         answer = n*12000 + k*2000
     return answer
+
+
+def solution(n):
+    answer = 0
+    for i in range(n+1):
+        if(i % 2 ==0):
+            print(i)
+            answer += i
+    print(answer)
+
+    return answer
