@@ -5,7 +5,7 @@ def solution(n):
             answer.append(i)
     return answer
 
-
+#조건에 맞는 범위 자르기 
 def solution(numbers, num1, num2):
     return numbers[num1:num2+1]
 
