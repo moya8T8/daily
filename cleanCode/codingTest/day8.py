@@ -15,6 +15,7 @@ def solution(numbers, num1, num2):
         answer.append(numbers[i])   
     print(answer)
     return answer
+
 #실패
 def solution(age):
     answer = ''
