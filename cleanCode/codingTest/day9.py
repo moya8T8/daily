@@ -12,4 +12,4 @@ def solution(n):
         answer += i
     return answer
 
-   
+       
