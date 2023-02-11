@@ -23,4 +23,4 @@ def solution(slice, n):
     print(answer)
     return answer
 
-solution(7,10)
+solution(7,10);
