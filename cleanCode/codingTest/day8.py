@@ -16,7 +16,7 @@ def solution(numbers, num1, num2):
     print(answer)
     return answer
 
-#실패
+#성공
 def solution(age):
     answer = ''
     age = str(age)
@@ -40,6 +40,11 @@ def solution(age):
         if(age[i]=='8'):
             answer += 'i'
         if(age[i]=='9'):
-            answer += 'k'
+            answer += 'j'
     print(answer)
     return answer
+
+#아이스키코드
+def solution(age):
+
+    return ''.join([chr(int(i)+97) for i in str(age)])
