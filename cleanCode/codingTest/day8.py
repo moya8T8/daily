@@ -43,8 +43,25 @@ def solution(age):
             answer += 'j'
     print(answer)
     return answer
+#아스키코드
+def solution3(age):
+    answer = ''
+    for i in str(age):
+        answer += chr(int(i)+97)
+    print(answer)
+    return answer
 
-#아이스키코드
-def solution(age):
+#응급상황
 
-    return ''.join([chr(int(i)+97) for i in str(age)])
+def solution(emergency):
+    answer = []
+    for i in emergency:
+        answer.append(i)
+    answer2 = []
+    emergency.sort(reverse=True)
+    for i in answer:
+        for j, num in enumerate(emergency):
+            if(i == num):
+                answer2.append(j +1 )
+    print(answer2)
+    return answer2
