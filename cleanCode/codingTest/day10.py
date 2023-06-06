@@ -24,3 +24,6 @@ def solution(slice, n):
     return answer
 
 solution(7,10);
+
+def firss():
+    print('화면이 생각보다 잘 보이는구나 괜찮을지도 모르겠다 이정도 거리에서 설치해서 쓰는거 말야 ㅇㅅㅇ...응! ')
